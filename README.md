@@ -149,7 +149,7 @@ The game checks for 4 consecutive pieces in:
 ✓ **Missing legal moves** - Implemented legal_moves() method
 ✓ **All tests now passing** - Board and AI tests work correctly
 
-## Game Working Perfectly! 🎮
+## Game Working Perfectly! 
 
 The Connect Four game is now fully functional with:
 - ✓ Complete board implementation
@@ -160,3 +160,4 @@ The Connect Four game is now fully functional with:
 - ✓ Strategic AI moves
 
 Enjoy playing Connect Four!
+
