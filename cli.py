@@ -24,11 +24,11 @@ def play_game(vs_ai: bool = True) -> None:
 
         if board.winner():
             logging.info("\n" + str(board))
-            logging.info(f"\n🎉  Player {current.name} wins!")
+            logging.info(f"\n Player {current.name} wins!")
             break
         if board.is_full():
             logging.info("\n" + str(board))
-            logging.info("\n🤝  The game is a draw.")
+            logging.info("\n The game is a draw.")
             break
 
         current = Cell.P1 if current == Cell.P2 else Cell.P2

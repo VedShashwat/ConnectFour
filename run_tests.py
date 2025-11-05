@@ -35,23 +35,23 @@ def run_tests():
     passed = 0
     failed = 0
     
-    print("Running tests...\n")
+    print("Running tests\n")
     
     for name, test_func in tests:
         try:
             test_func()
-            print(f"✓ {name}")
+            print(f"{name}")
             passed += 1
         except AssertionError as e:
-            print(f"✗ {name}: {e}")
+            print(f" {name}: {e}")
             failed += 1
         except Exception as e:
-            print(f"✗ {name}: Unexpected error - {e}")
+            print(f" {name}: Unexpected error - {e}")
             failed += 1
     
-    print(f"\n{'='*50}")
+
     print(f"Results: {passed} passed, {failed} failed")
-    print(f"{'='*50}")
+  
     
     return failed == 0
 
